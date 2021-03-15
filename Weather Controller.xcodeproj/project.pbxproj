@@ -56,15 +56,39 @@
 		8ED4966925FF7366007FF070 /* Weather Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8ED4968125FF7396007FF070 /* Controller */,
+				8ED4968025FF738D007FF070 /* Model */,
 				8ED4966A25FF7366007FF070 /* AppDelegate.swift */,
 				8ED4966C25FF7366007FF070 /* SceneDelegate.swift */,
 				8ED4966E25FF7366007FF070 /* ViewController.swift */,
-				8ED4967025FF7366007FF070 /* Main.storyboard */,
+				8ED4967F25FF7384007FF070 /* View */,
 				8ED4967325FF7367007FF070 /* Assets.xcassets */,
 				8ED4967525FF7367007FF070 /* LaunchScreen.storyboard */,
 				8ED4967825FF7367007FF070 /* Info.plist */,
 			);
 			path = "Weather Controller";
+			sourceTree = "<group>";
+		};
+		8ED4967F25FF7384007FF070 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8ED4967025FF7366007FF070 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8ED4968025FF738D007FF070 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8ED4968125FF7396007FF070 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
